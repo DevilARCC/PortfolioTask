@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* Весь код писался в SCSS, поэтому, прошу прощения если что-то будет не так :")*/
+
+body p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+body h3::first-letter {
+  color: red;
+}
+
+input {
+  border-radius: 5px;
+  border: 3px double black;
+}
+
+header textarea {
+  margin-left: 89%;
+}
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f7f7f7;
+  padding: 25px;
+  margin: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.menu a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.menu a:nth-child(3):hover {
+  color: red;
+  text-decoration: none;
+  text-decoration: line-through;
+}
+
+.menu a:nth-child(4):hover {
+  color: red;
+  text-decoration: none;
+  text-decoration: line-through;
+}
+
+.menu a:nth-child(5):hover {
+  color: red;
+  text-decoration: none;
+  text-decoration: line-through;
+}
+
+.menu :first-child {
+  margin-right: auto;
+}
+
+.side-href:visited {
+  color: yellowgreen;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.role {
+  list-style: none;
+}
+
+.role li {
+  margin: 10px 0 0 10px;
+}
+
+.role li:first-child {
+  background: url(/Forms/Maplestrike/Картинки/icon.png) 3px 10px no-repeat;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  width: 100px;
+  padding: 10px;
+  background-color: #1fbd1f;
+  color: white;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.role li:last-child {
+  text-decoration: line-through;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  width: 100px;
+  padding: 10px;
+  background-color: #ee2a08;
+  padding-left: 30px;
+  border-radius: 10px;
+}
+
+.ttx {
+  padding: 0;
+}
+
+.ttx li {
+  color: red;
+  margin-left: 20px;
+}
+
+.ttx li span {
+  color: #214133;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.ammo {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.poz-center {
+  display: block;
+  margin: auto;
+}
+
+select {
+  height: 200px;
+  width: 500px;
+  display: block;
+  margin: auto;
+}
+
+.ctrl {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 50px;
+  width: 200px;
+}
+
+.wait:hover {
+  background-color: red;
+  color: white;
+}
+
+.ready:hover {
+  background-color: green;
+  color: white;
+}
+
+.id {
+  color: blue;
+  -webkit-text-decoration: dotted underline;
+          text-decoration: dotted underline;
+}
+
+.dcm {
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 0px;
+  border: 3px dotted black;
+  padding: 10px;
+}
+
+.submitplace {
+  padding: 0 10px 10px 10px;
+  margin: 0 -10px -10px -10px;
+  background-color: #eedcdc;
+}
