@@ -94,7 +94,7 @@ ul {
 }
 
 .role li:first-child {
-  background: url(./Картинки/icon.png) 3px 10px no-repeat;
+  background: url(./Images/icon.png) 3px 10px no-repeat;
   font-weight: bold;
   font-style: italic;
   font-size: 18px;
