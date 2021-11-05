@@ -2,25 +2,25 @@
 
 /* Весь код писался в SCSS, поэтому, прошу прощения если что-то будет не так :")*/
 
-body p {
+.body_P {
   font-family: 'Courier New', Courier, monospace;
 }
 
-body h1 {
+.body_H1 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
-body h3::first-letter {
+.body_H3::first-letter {
   color: red;
 }
 
-input {
+.body_Input_Placeholder {
   border-radius: 5px;
   border: 3px double black;
 }
 
-header textarea {
+.header_Textarea {
   margin-left: 89%;
 }
 
@@ -76,11 +76,11 @@ header textarea {
   margin-right: auto;
 }
 
-.side-href:visited {
+.sideref:visited {
   color: yellowgreen;
 }
 
-ul {
+ul { /*ul обнуляем, поэтому класс к нему не пишем. (Да и не прописываются ему классы почему-то..)*/
   padding: 0;
   margin: 0;
 }
@@ -148,7 +148,7 @@ ul {
   margin: auto;
 }
 
-select {
+.body_Select {
   height: 200px;
   width: 500px;
   display: block;
@@ -157,9 +157,29 @@ select {
 
 .ctrl {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-button {
+/* button {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 50px;
+  width: 200px;}
+ --> общие свойства для кнопок распихиваем по классам wait, hover в соответствии с требованием:
+"4. В css селекторах не приветствуется использование тегов, лучше использовать классы."*/ 
+
+.wait {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  height: 50px;
+  width: 200px;
+}
+
+.ready {
   display: block;
   margin: auto;
   border-radius: 10px;
